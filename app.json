@@ -1,9 +1,9 @@
 {
-  "name": "Music Man",
+  "name": "Pey Music",
   "logo": "https://telegra.ph/file/36ff1b571aa11df5812de.jpg",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/mrismanaziz/Music-Man",
+  "repository": "https://github.com/Mpey0503/MusicPey",
   "stack": "heroku-20",
   "buildpacks": [
    {
@@ -34,12 +34,12 @@
     "SUPPORT_GROUP": {
       "description": "Grup dukungan MusicPlayer Anda tanpa @ [skip ini jika Anda tidak punya]",
       "required": false,
-      "value": "SharingUserbot"
+      "value": "peyyproject"
     },
     "PROJECT_NAME": {
       "description": "Nama proyek MusicPlayer Anda.",
       "required": false,
-      "value": "𝙈𝙐𝙎𝙄𝘾 𝙈𝘼𝙉"
+      "value": "MUSIC CONTOL"
     },
     "ASSISTANT_NAME": {
       "description": "Username Telegram asisten MusicPlayer Anda tanpa @",
@@ -53,12 +53,12 @@
     "BG_IMAGE": {
       "description": "Custom Background Play Musik Gunakan Foto yang Transparant format .png / .jpg",
       "required": false,
-      "value": "https://telegra.ph/file/cd0b87484429704c7b935.png"
+      "value": "https://telegra.ph/file/d216c9a730c755d7c801c.png"
     },     
     "UPDATES_CHANNEL": {
       "description": "Updates Channel tanpa @ [skip ini jika Anda tidak punya]",
       "required": false,
-      "value": "Lunatic0de"
+      "value": "peyyproject"
     },    
     "API_ID": {
       "description": "Masukan APP ID Silahkan Ambil dari my.telegram.org/apps atau t.me/scrapmanbot",
