@@ -49,7 +49,7 @@ Saya Memiliki Banyak Fitur Praktis Seperti :
 ┣• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkap saya
 ┗━━━━━━━━━━━━━━
 ❃ Managed With ❤ By {OWNER}
-❃ Thanks To [Risman](https://t.me/mrismanaziz)
+❃ Master [Peyy](https://t.me/Untelee)
 ━━━━━━━━━━━━━━━
 Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
 </b>""",
@@ -69,7 +69,7 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
                         "⛑ Group Support", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
+                        "🛠 Source Code 🛠", url=f"https://github.com/Mpey0503/MusicPey")
                 ]
             ]
         ),
