@@ -1,19 +1,4 @@
-# DAISYXMUSIC- Telegram bot project
-# Copyright (C) 2021  Roj Serbest
-# Copyright (C) 2021  Inuka Asith
-# This program is free software: you can redistribute it and/or modify
-# it under the terms of the GNU Affero General Public License as
-# published by the Free Software Foundation, either version 3 of the
-# License, or (at your option) any later version.
 
-# This program is distributed in the hope that it will be useful,
-# but WITHOUT ANY WARRANTY; without even the implied warranty of
-# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-# GNU Affero General Public License for more details.
-#
-# You should have received a copy of the GNU Affero General Public License
-# along with this program.  If not, see <https://www.gnu.org/licenses/>.
-# Modified by Inukaasith
 
 from os import getenv
 import os
@@ -34,7 +19,7 @@ API_HASH = getenv("API_HASH")
 BOT_USERNAME = getenv("BOT_USERNAME")
 ASSISTANT_NAME = getenv("ASSISTANT_NAME", "botmusikman")
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "SharingUserbot")
-PROJECT_NAME = getenv("PROJECT_NAME", "𝙈𝙐𝙎𝙄𝘾 𝙈𝘼𝙉")
+PROJECT_NAME = getenv("PROJECT_NAME", "Seven Sins")
 OWNER = getenv("OWNER", "@mrismanaziz")
 SOURCE_CODE = getenv("SOURCE_CODE", "github.com/mrismanaziz/Music-Man")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "30"))
