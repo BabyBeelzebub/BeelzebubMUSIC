@@ -1,9 +1,9 @@
 {
-  "name": "Pey Music",
-  "logo": "https://telegra.ph/file/36ff1b571aa11df5812de.jpg",
+  "name": "exe",
+  "logo": "https://telegra.ph/file/0f182f4132ef24c182f90.jpg",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/Mpey0503/MusicPey",
+  "repository": "https://github.com/BabyBeelzebub/BeelzebubMUSIC",
   "stack": "heroku-20",
   "buildpacks": [
    {
