@@ -49,7 +49,7 @@ Saya Memiliki Banyak Fitur Praktis Seperti :
 ┣• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkap saya
 ┗━━━━━━━━━━━━━━
 ❃ Managed With ❤ By {OWNER}
-❃ Master [Peyy](https://t.me/Untelee)
+❃ Master [Escanor](https://t.me/escnrsins)
 ━━━━━━━━━━━━━━━
 Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
 </b>""",
@@ -62,15 +62,7 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
                 [
                     InlineKeyboardButton(
                         "➕ Tambahkan saya ke Grup Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-                [
-                    InlineKeyboardButton(
-                        "💬 Channel Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
-                    InlineKeyboardButton(
-                        "⛑ Group Support", url=f"https://t.me/{SUPPORT_GROUP}")
-                ],[
-                    InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url=f"https://github.com/Mpey0503/MusicPey")
-                ]
+                
             ]
         ),
         reply_to_message_id=message.message_id
@@ -112,21 +104,7 @@ def map(pos):
                 InlineKeyboardButton(
                     "➕ Tambahkan saya ke Grup Anda ➕",
                     url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
-                )
-            ],
-            [
-                InlineKeyboardButton(
-                    text='💬 Channel Updates',
-                    url=f"https://t.me/{UPDATES_CHANNEL}",
-                ),
-                InlineKeyboardButton(
-                    text='⛑ Group Support', url=f"https://t.me/{SUPPORT_GROUP}"
-                ),
-            ],
-            [
-                InlineKeyboardButton(
-                    text='🛠 Source Code 🛠', url=f"https://{SOURCE_CODE}"
-                )
+           
             ],
             [InlineKeyboardButton(text='«', callback_data=f"help+{pos-1}")],
         ]
